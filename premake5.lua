@@ -20,9 +20,9 @@ project "msdf-atlas-gen"
         "msdf-atlas-gen/**.cpp",
         "msdf-atlas-gen/**.hpp",
         "msdf-atlas-gen/**.h",
-        "msdf-gen/msdf-gen/**.cpp",
-        "msdf-gen/msdf-gen/**.hpp",
-        "msdf-gen/msdf-gen/**.h",
+        "msdf-gen/core/**.cpp",
+        "msdf-gen/core/**.hpp",
+        "msdf-gen/core/**.h"
     }
     
     filter "system:windows"
