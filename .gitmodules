@@ -4,3 +4,6 @@
 [submodule "artery-font-format"]
 	path = artery-font-format
 	url = https://github.com/Chlumsky/artery-font-format
+[submodule "freetype"]
+	path = freetype
+	url = https://github.com/freetype/freetype
