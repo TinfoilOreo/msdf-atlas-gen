@@ -13,7 +13,8 @@ project "msdf-atlas-gen"
 
     includedirs {
         "%{IncludeDir.MsdfGen}",
-        "%{IncludeDir.MsdfAtlasGen}"
+        "%{IncludeDir.MsdfAtlasGen}",
+        "%{IncludeDir.Freetype}"
     }
         
     files {
@@ -23,6 +24,10 @@ project "msdf-atlas-gen"
         "msdf-gen/core/**.cpp",
         "msdf-gen/core/**.hpp",
         "msdf-gen/core/**.h"
+    }
+
+    links {
+        "freetype"
     }
     
     filter "system:windows"
