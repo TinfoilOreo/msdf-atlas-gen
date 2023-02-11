@@ -14,7 +14,7 @@ project "msdf-atlas-gen"
     includedirs {
         "%{IncludeDir.MsdfGen}",
         "%{IncludeDir.MsdfAtlasGen}",
-        "%{IncludeDir.Freetype}"
+        "artery-font-format"
     }
         
     files {
