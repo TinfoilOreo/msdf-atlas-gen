@@ -27,7 +27,7 @@ project "msdf-atlas-gen"
     }
 
     links {
-        "freetype"
+        "msdfgen"
     }
     
     filter "system:windows"
